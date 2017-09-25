@@ -25,10 +25,12 @@ body {
 {
 background-image:url(../images/menu.png);
 background-repeat:no-repeat;
-width:940px;
+width:920px;
 height:69px;
-float:left;
+float:center;
 clear:both;
+opacity: 0.8;
+filter: alpha(opacity=90);
 }
 
 #content
