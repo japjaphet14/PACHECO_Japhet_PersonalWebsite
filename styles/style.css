@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	font: Courier New;
+	font-size: 17px;
+	background: url(../images/background2.jpg);
+	background-size: 1380px 640px;
+	background-attachment:fixed;
+	background-align: center;
+}
