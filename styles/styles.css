@@ -8,6 +8,13 @@ body {
 	background-size: 1380px 640px;
 	background-attachment:fixed;
 }
+body, html, .main {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
 table th {
 	border: 0px solid white;
 	color: white;
@@ -380,20 +387,6 @@ p {text-align: center;}
     transform: translateY(-2000px);
   }
 }
-
-
-.animated {
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-
-
-
-
-
 
 
 
