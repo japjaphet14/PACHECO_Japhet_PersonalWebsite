@@ -8,3 +8,24 @@ body {
 	background-size: 1380px 640px;
 	background-attachment:fixed;
 }
+
+.blink{
+		width:200px;
+		height: 50px;
+	    background-color: none;
+		padding: 15px;	
+		text-align: center;
+		line-height: 50px;
+	}
+	span{
+		border: 2px solid white;
+		font-size: 25px;
+		font-family: Caviar Dreams;
+		color: white;
+		animation: blink 1.2s linear infinite;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
