@@ -41,9 +41,11 @@ opacity: 0.6;
 position: fixed;
 
 
+
 }
 #opacity {
-
+margin-top:0px;
+padding-top:0px;
 opacity: none;
 }
 
