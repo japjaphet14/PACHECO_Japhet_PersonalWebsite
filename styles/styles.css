@@ -27,6 +27,7 @@ td{
 #shadow {
     background-color: yellow;
     box-shadow: 0px 0px 7px 4px black;
+
 }
 
 #menu
@@ -132,12 +133,7 @@ p {text-align: center;}
 
 }
 
-
-
-
-
-
-
+<!animation transitions
 @-webkit-keyframes slideInDown {
   0% {
     opacity: 0;
