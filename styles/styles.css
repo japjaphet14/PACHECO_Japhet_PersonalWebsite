@@ -76,7 +76,9 @@ margin-top:0px;
 padding-top:0px;
 }
 
-
+#verse {
+	font-size:25px;
+}
 
 #opacity {
 margin-top:0px;
