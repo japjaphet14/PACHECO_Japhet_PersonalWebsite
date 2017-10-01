@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align:center;
-	font: arial;
+	
 	font-size: 17px;
 	background: url(../images/background.jpg);
 	background-size: 1380px 640px;
@@ -12,14 +12,17 @@ table th {
 	border: 0px solid white;
 	color: white;
 	font-size: 60px;
+	font-family: Monotype Corsiva;
+	  -webkit-text-stroke: 2px black;
 	
 }
 td{
 	border: 0px solid white;
-	font-size: 20px;
+	font-size: 22px;
 	color: white;
 	text-align: left;
-	text-shadow: 2px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+	font-family: Courier New;
+	text-shadow: 2px 0 #000000,0 0px #000000,0px 0 #000000,0 -1px #000000;
 }
 
 *
@@ -30,6 +33,33 @@ td{
     background-color: yellow;
     box-shadow: 0px 0px 7px 4px black;
 
+}
+
+#slideshow {
+	transition: 0.5s ease;
+
+}
+
+
+.leftbutton, .rightbutton {
+  cursor: pointer;
+ background-color:transparent;
+ border-color: transparent;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  
+}
+.rightbutton {
+  border-radius: 3px 0 0 3px;
+}
+
+.leftbutton:hover, .rightbutton:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 #menu
@@ -45,6 +75,8 @@ margin-top:0px;
 padding-top:0px;
 
 }
+
+
 
 #opacity {
 margin-top:0px;
@@ -98,46 +130,22 @@ color: white;
 html, body {
 text-align: center;
 }
-p {text-align: center;}
-
-
-
-
-
-
-#color1{
-
-	font-family: "Calibri", "Arial";
-	letter-spacing: .05em;
-	color: #545cff ;
-	font-size: 140px;
-	font-weight:200;
-	margin-left:50px;
-	text-shadow:grey, 10px,10px,10px;
+p{
+	text-align: center;
+	color: grey;
+}
+h3 {
 	
-}
+	border: 0px solid white;
+	color: black;
+	font-size: 60px;
+	font-family: Monotype Corsiva;
+	background-color:white;
+	}
 
-#color2{
 
-	font-family: "Calibri", "Arial";
-	letter-spacing: .05em;
-	color: #d80f69 ;
-	font-size: 130px;
-	font-weight:200;
-	margin-left:50px;
 
-}
 
-#color3{
-
-	font-family: "Calibri", "Arial";
-	letter-spacing: .05em;
-	color: #2d0078 ;
-	font-size: 70px;
-	font-weight:200;
-	margin-left:50px;
-
-}
 
 <!animation transitions
 @-webkit-keyframes slideInDown {
