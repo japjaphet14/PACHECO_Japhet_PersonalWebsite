@@ -9,7 +9,7 @@ body {
 
 }
 table th {
-	border: 0px solid white;
+	border: px solid white;
 	color: white;
 	font-size: 60px;
 	font-family: Monotype Corsiva;
@@ -82,7 +82,7 @@ padding-top:0px;
 }
 
 #opacity {
-margin-top:0px;
+margin-top:-10px;
 padding-top:0px;
 opacity: none;
 }
