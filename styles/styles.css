@@ -4,7 +4,7 @@ body {
 	text-align:center;
 	font-size: 17px;
 	background: url(../images/background.jpg);
-	background-size: 1380px 640px;
+	background-size: 1580px 740px;
 	background-attachment:fixed;
 }
 table th {
@@ -79,6 +79,7 @@ margin-top:-10px;
 padding-top:0px;
 opacity: none;
 }
+
 
 
 #menu a {
@@ -157,6 +158,3 @@ h3 {
 	font-family: Muskaters;
 	background-color:white;
 	}
-
-
-
