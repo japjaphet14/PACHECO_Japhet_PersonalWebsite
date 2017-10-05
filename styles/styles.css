@@ -4,7 +4,7 @@ body {
 	text-align:center;
 	font-size: 17px;
 	background: url(../images/background.jpg);
-	background-size: 1500px 740px;
+	background-size: 1380px 640px;
 	background-attachment:fixed;
 }
 table th {
@@ -34,7 +34,6 @@ td{
 
 #slideshow {
 	transition: 0.5s ease;
-
 }
 
 .leftbutton, .rightbutton {
@@ -96,7 +95,9 @@ opacity: none;
 }
 
 abbr {
-	text-decoration:none
+	text-decoration:none;
+	
+	
 }
 
 a {
@@ -126,7 +127,6 @@ a {
 	opacity:0.9;
 }
 
-
 #ability{
 	height:650px;
 	background-color: rgba(75, 77, 81,0.7);
@@ -152,8 +152,6 @@ p{
 	color: grey;
 }
 h3 {
-	
-
 	color: black;
 	font-size: 60px;
 	font-family: Muskaters;
