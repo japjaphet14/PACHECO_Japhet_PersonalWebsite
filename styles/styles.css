@@ -117,9 +117,14 @@ a {
 
 #travel :hover{
 	opacity:0.9;
-	
 }
 
+#walk :hover{
+	opacity:0.9;
+}
+#longride :hover{
+	opacity:0.9;
+}
 
 
 #ability{
